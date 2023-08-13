@@ -1,0 +1,131 @@
+.newsroom__Container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* gap: 10rem; */
+    overflow-x: hidden;
+    margin-top: 8rem;
+}
+
+.newsroom_image {
+    margin: 0.5rem;
+    border-radius: 1rem;
+    padding: 3rem 2rem;
+    background: var(--light-primary);
+    border-bottom: 6px solid var(--tar-primary, #F37421);
+}
+
+.newsroom__inner {
+    display: block;
+    border-radius: 1rem;
+    padding: 2rem 3rem;
+    margin: 0.5rem;
+    border: 1px solid var(--primary);
+    gap: 1rem;
+}
+.newsroom__inner h5 {
+    color: var(--tar-primary, #F37421);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.newsroom__inner h2 {
+    color: var(--tar-primary, #1A3C66);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 53.232px;
+    margin-bottom: 1rem;
+}
+.newsroom__inner p {
+    -webkit-transform: skew(199deg);
+}
+#button{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: end;
+}
+.newsroom_content{
+    margin: 2rem 0rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.newsroom_content img{
+    width: 100%;
+}
+
+.btn_newroom {
+    -webkit-transform: skew(-199deg);
+    border-radius: 0.5rem;
+    width: 281px;
+    height: 2.75rem;
+    flex-shrink: 0;
+    fill: rgba(243, 116, 33, 0.10);
+    background: rgba(243, 116, 33, 0.10);
+    fill: rgba(243, 116, 33, 0.10);
+    filter: drop-shadow(0px 4px 4px rgba(243, 116, 33, 0.25));
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    /* margin-left: 65px; */
+    margin: 0.5rem 0rem;
+    line-height: 33.732px;
+    cursor: pointer;
+}
+
+.btn_newroom:hover {
+    border: 2px solid var(--primary);
+}
+
+
+/* ====CSS for Media Query==== */
+@media (max-width:1640px) {}
+
+@media (max-width:1440px) {}
+
+@media (max-width:1024px) {
+    .homebookdemo__Container {
+        grid-template-columns: 1fr;
+    }
+
+    .bookdemo_content {
+        margin: 0rem 1rem 4rem 1rem;
+    }
+
+    .bookdemo_form {
+        margin: 0rem 1rem;
+    }
+}
+
+@media (max-width:768px) {}
+
+@media (max-width:700px) {}
+
+@media (max-width:425px) {
+    .newsroom__Container {
+        grid-template-columns: 1fr;       
+    }
+    .newsroom__inner{
+        margin: 0rem;
+        padding: 1rem;
+    }
+    .newsroom_content{
+        grid-template-columns: 1fr; 
+    }
+    .newsroom_image{
+        margin: 1rem 0rem 0rem 0rem;
+        padding: 2rem 1rem;
+    }
+    .newsroom_image h2{
+        font-size: 1.5rem;
+    }
+    #button{
+        justify-items: center;
+    }
+        
+}
+
+
+@media (max-width:320px) {}
