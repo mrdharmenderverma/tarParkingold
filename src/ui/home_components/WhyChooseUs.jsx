@@ -19,7 +19,7 @@ const WhyChooseUs = (props) => {
           <img src={service_img} alt="Services" />
         </div>
         <div className="part-1 about__content animate__animated  animate__bounceInRight">
-          <h2>Making people’s daily life easy and convenient</h2>
+          <h2>Making people’s daily life easy and convenients</h2>
           <p>
             Manufacturing of designing, innovating and installing various
             parking systems and solutions.
