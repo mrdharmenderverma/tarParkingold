@@ -12,7 +12,7 @@ const HomeAbout = (props) => {
         <small></small>
         <span>About our Company</span>
         <h1>{props.name},</h1>
-        <h2>Making people’s daily life easy and convenient</h2>
+        <h2>Making people's daily life easy and convenient</h2>
         <p>
           Manufacturing of designing, innovating and installing various parking
           systems and solutions.
