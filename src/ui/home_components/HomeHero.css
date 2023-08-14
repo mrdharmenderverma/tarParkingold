@@ -61,8 +61,22 @@
     line-height: 2.5rem;
 }
 
-.download__store {
+/* .download__store {
     width: 60%;
+} */
+
+.download__store {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.btn-2{
+    padding: 1rem 2rem;
+    background-color: var(--primary);
+    color: var(--white);
+    text-transform: uppercase;
+    border-radius: 3rem;
 }
 .btn-primary{
     padding: 1rem 1.75rem;
@@ -77,8 +91,29 @@
     text-transform: uppercase;
     cursor: pointer;
     border: 1px solid;
-
 }
+.btn-3{
+    padding: 1rem 2rem;
+    background-color: var(--secondary);
+    color: var(--white);
+    text-transform: uppercase;
+    border-radius: 3rem;
+}
+.btn-2:hover{
+    border: 1px solid;
+    background: var(--white);
+    color: var(--primary);
+}
+.btn-3:hover{
+    border: 1px solid;
+    color: var(--secondary);
+    background: var(--white);
+    /* color: var(--secondary) */
+}
+
+
+
+
 .btn-primary:hover{
     border: 1px solid;
     background: var(--white);

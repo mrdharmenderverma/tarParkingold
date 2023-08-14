@@ -18,17 +18,23 @@ const NewsRoom = () => {
       <div className="newsroom_image">
         <h2 className="text-center">Tar Parking launch new System</h2>
         <div className="newsroom_content">
-          <img src={NewsroomImg} alt="" />
-          <p>
-            Manufacturing of designing, innovating and installing various parking systems and solutions.  TAR PARKING is one of the leading manufacturers of car parking systems worldwide.
-          </p>
-        </div>
-        <div id="button">
+          <div className="news__img">
+            <img src={NewsroomImg} alt="" />
+          </div>
+          <div className="news__content">
+            <p>
+              Manufacturing of designing, innovating and installing various
+              parking systems and solutions. TAR PARKING is one of the leading
+              manufacturers of car parking systems worldwide.
+            </p>
+            <div id="button">
           <button type="button" className="btn-primary">
             Read More
           </button>
         </div>
-
+          </div>
+        </div>
+        
       </div>
     </div>
   );

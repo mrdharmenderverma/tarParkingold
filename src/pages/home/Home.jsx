@@ -5,8 +5,6 @@ import HomeAbout from "../../ui/home_components/HomeAbout";
 import WhyChooseUs from "../../ui/home_components/WhyChooseUs";
 import NewsRoom from "../../ui/home_components/NewsRoom";
 import OurProducts from '../../ui/home_components/OurProducts';
-// import HomeDemo from '../../ui/home_components/HomeDemo';
-// import "./home.css";
 
 const Home = () => {
   return (
@@ -16,7 +14,6 @@ const Home = () => {
       <OurProducts/>
       <WhyChooseUs name="Tar Parking"/>
       <NewsRoom/>
-      {/* <WorkProcess/> */}
     </StrictMode>
   )
 }

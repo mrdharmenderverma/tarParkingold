@@ -76,7 +76,7 @@
 .btn_product {
     -webkit-transform: skew(-199deg);
     border-radius: 0.5rem;
-    width: 281px;
+    width: 15rem;
     height: 2.75rem;
     flex-shrink: 0;
     fill: rgba(243, 116, 33, 0.10);
@@ -101,16 +101,17 @@
 @media (max-width:1440px) {}
 
 @media (max-width:1024px) {
-    .homebookdemo__Container {
-        grid-template-columns: 1fr;
+    .image_section{
+        min-width: 0%;
     }
-
-    .bookdemo_content {
-        margin: 0rem 1rem 4rem 1rem;
+    .image_section p {
+        margin: 1rem 0rem;
     }
-
-    .bookdemo_form {
-        margin: 0rem 1rem;
+    .product__img{
+        width: 100%;
+    }
+    .product_content{
+        width: 100%;
     }
 }
 
@@ -121,7 +122,6 @@
 @media (max-width:425px) {
     .ourProduct__Container {
         grid-template-columns: 1fr;
-
     }
 
     .tab__section {

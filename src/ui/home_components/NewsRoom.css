@@ -86,7 +86,7 @@
 @media (max-width:1440px) {}
 
 @media (max-width:1024px) {
-    .homebookdemo__Container {
+    /* .homebookdemo__Container {
         grid-template-columns: 1fr;
     }
 
@@ -96,7 +96,17 @@
 
     .bookdemo_form {
         margin: 0rem 1rem;
+    } */
+    .newsroom_content{
+        grid-template-columns: 1fr;
     }
+    .about_inner{
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+    }
+    .about_inner .inner-1{   
+    }
+    
 }
 
 @media (max-width:768px) {}

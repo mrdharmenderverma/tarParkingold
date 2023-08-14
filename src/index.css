@@ -116,3 +116,11 @@ img {
         margin-top: 1rem;
     }
 }
+
+@media (max-width:320px) {
+    .download__store {
+        margin-top: 1.5rem;
+        display: grid;
+        gap: 1rem;
+    }
+} 

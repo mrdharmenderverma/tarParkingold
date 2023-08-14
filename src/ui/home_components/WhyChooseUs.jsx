@@ -9,7 +9,7 @@ const WhyChooseUs = (props) => {
     <div className="container services__container">
       <div className="center-heading">
         <h5 className="top-heading">WHY CHOOSE US</h5>
-        <h1 className="center_heading">
+        <h1 className="">
           <strong className="primary-heading">{props.name}</strong> is one of
           the best company providing multiple car parking systems
         </h1>

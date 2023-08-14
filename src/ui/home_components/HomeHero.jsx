@@ -15,10 +15,13 @@ const HomeHero = (props) => {
         Manufactures the most advanced mechanical car parking system which can expand the parking capacity up to multiple times more on the most tight and limited space in most areas of urban India.
         </p>
         <div className="download__store">
-          <button type="button" className="btn-primary">Book Demo NOw</button>
-          <button type="button" className="btn-secondary">Explore Products</button>
-          
+          <button className="btn-2">Brochure</button>
+          <button className="btn-3">Products</button>
         </div>
+        {/* <div className="download__store">
+          <button type="button" className="btn-primary">Book Demo NOw</button>
+          <button type="button" className="btn-secondary">Explore Products</button>          
+        </div> */}
       </div>
       <div className="part-2 animate__animated  animate__zoomInRight">
         <img src={HeroImg} alt="Helper Adda" />

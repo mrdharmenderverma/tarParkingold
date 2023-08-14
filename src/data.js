@@ -23,16 +23,16 @@ export const links = [
     },  
 ]
 
-export const DownloadLinks = [
-    {
-        name:"Playstore",
-        url: "https://play.google.com/store"
-    },
-    {
-        name:"Appstore",
-        url: "https://www.apple.com/in/app-store/"
-    }
-]
+// export const DownloadLinks = [
+//     {
+//         name:"Playstore",
+//         url: "https://play.google.com/store"
+//     },
+//     {
+//         name:"Appstore",
+//         url: "https://www.apple.com/in/app-store/"
+//     }
+// ]
 
 export const Services = [
     {
